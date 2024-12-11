@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
 	<title>HomePage</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20241204200046">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241211191143">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,8 +22,14 @@
 						<span class="header__logo-text">ФітБот</span>
 					</a>
 					<div class="header__btns">
+						<a data-da=".header__bottom, 767.98" href="" class="header__link">
+							<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								<path d="M15.9582 6.13694C15.8528 5.81296 15.5655 5.58358 15.2268 5.55294L10.6081 5.13363L8.78275 0.860116C8.64798 0.546146 8.34134 0.343506 8.00002 0.343506C7.65871 0.343506 7.35194 0.546146 7.21803 0.860116L5.39268 5.13363L0.773216 5.55294C0.434587 5.58419 0.147839 5.81357 0.0418805 6.13694C-0.0634679 6.46092 0.0338237 6.81627 0.289932 7.04088L3.78132 10.1023L2.75189 14.6363C2.67657 14.9697 2.80596 15.3145 3.08258 15.5144C3.23126 15.6224 3.40595 15.6764 3.58125 15.6764C3.73188 15.6764 3.88264 15.6364 4.01729 15.5558L8.00002 13.1744L11.982 15.5558C12.2741 15.7304 12.6415 15.7144 12.9175 15.5144C13.1941 15.3145 13.3235 14.9697 13.2482 14.6363L12.2187 10.1023L15.7101 7.04088C15.9661 6.81627 16.0635 6.46165 15.9582 6.13694Z" />
+							</svg>
+							<span>Обмежена пропозиція</span>
+						</a>
 						<button data-popup="#popup" type="button" class="header__btn button">
-							Спробувати безкоштовно
+							Спробувати <span>безкоштовно</span>
 						</button>
 						<a href="" class="header__telegram button-blue">
 							<svg width="19" height="20" viewBox="0 0 19 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -34,12 +40,14 @@
 							<span>Запустити в Telegram</span>
 						</a>
 					</div>
-					<a href="" class="header__social">
+					<a data-da=".header__bottom, 767.98" href="" class="header__social">
 						<svg width="36" height="36" viewBox="0 0 36 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 							<path d="M18.0001 11.581C14.4581 11.581 11.5811 14.458 11.5811 18C11.5811 21.542 14.4581 24.426 18.0001 24.426C21.5421 24.426 24.4261 21.542 24.4261 18C24.4261 14.458 21.5421 11.581 18.0001 11.581Z" />
 							<path d="M27.688 0.5H8.312C4.007 0.5 0.5 4.007 0.5 8.312V27.688C0.5 32 4.007 35.5 8.312 35.5H27.688C32 35.5 35.5 32 35.5 27.688V8.312C35.5 4.007 32 0.5 27.688 0.5ZM18 29.34C11.749 29.34 6.66 24.251 6.66 18C6.66 11.749 11.749 6.667 18 6.667C24.251 6.667 29.34 11.749 29.34 18C29.34 24.251 24.251 29.34 18 29.34ZM29.578 8.725C28.255 8.725 27.177 7.654 27.177 6.331C27.177 5.008 28.255 3.93 29.578 3.93C30.901 3.93 31.979 5.008 31.979 6.331C31.979 7.654 30.901 8.725 29.578 8.725Z" />
 						</svg>
 					</a>
+					<button type="button" class="header__burger icon-menu"><span></span></button>
+					<div class="header__bottom"></div>
 				</div>
 			</div>
 		</header>
@@ -87,7 +95,7 @@
 							Що вміє ФітБот?
 						</h2>
 						<div class="what-can__items">
-							<div class="what-can__item">
+							<div class="what-can__item what-can__item--long">
 								<div class="what-can__item-img">
 									<img src="img/what-can/image-1.jpg" alt="Image">
 								</div>
@@ -691,6 +699,12 @@
 						та угода користувача
 					</div>
 					<div class="footer__btns">
+						<a href="" class="footer__link">
+							<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								<path d="M15.9582 6.13694C15.8528 5.81296 15.5655 5.58358 15.2268 5.55294L10.6081 5.13363L8.78275 0.860116C8.64798 0.546146 8.34134 0.343506 8.00002 0.343506C7.65871 0.343506 7.35194 0.546146 7.21803 0.860116L5.39268 5.13363L0.773216 5.55294C0.434587 5.58419 0.147839 5.81357 0.0418805 6.13694C-0.0634679 6.46092 0.0338237 6.81627 0.289932 7.04088L3.78132 10.1023L2.75189 14.6363C2.67657 14.9697 2.80596 15.3145 3.08258 15.5144C3.23126 15.6224 3.40595 15.6764 3.58125 15.6764C3.73188 15.6764 3.88264 15.6364 4.01729 15.5558L8.00002 13.1744L11.982 15.5558C12.2741 15.7304 12.6415 15.7144 12.9175 15.5144C13.1941 15.3145 13.3235 14.9697 13.2482 14.6363L12.2187 10.1023L15.7101 7.04088C15.9661 6.81627 16.0635 6.46165 15.9582 6.13694Z" />
+							</svg>
+							<span>Обмежена пропозиція</span>
+						</a>
 						<button data-popup="#popup" type="button" class="footer__btn button">
 							Спробувати безкоштовно
 						</button>
@@ -770,7 +784,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20241204200046"></script>
+	<script src="js/app.min.js?_v=20241211191143"></script>
 </body>
 
 </html>
